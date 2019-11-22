@@ -1,0 +1,10 @@
+.Dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .Button {
+        width: 200px;
+        max-width: 100%;
+    }
+}
