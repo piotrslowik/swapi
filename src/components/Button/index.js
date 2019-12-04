@@ -32,8 +32,8 @@ ClassicButton.defaultProps = {
 }
 
 ClassicButton.propTypes = {
-  text: PropTypes.oneOf(['primary', 'secondary']),
-  color: PropTypes.string,
+  text: PropTypes.string,
+  color: PropTypes.oneOf(['primary', 'secondary']),
   onClick: PropTypes.func,
 }
 
